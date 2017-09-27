@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+require('dotenv').config();
+const server = require('../server/server');
+
+server.listen(3000,function(){
+  console.log('servidor rodando...');
+})
